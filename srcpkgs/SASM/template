@@ -1,0 +1,14 @@
+# Template file for 'SASM'
+pkgname=SASM
+version=3.8.0
+revision=1
+build_style=qmake
+hostmakedepends="qt-qmake make"
+makedepends="qt-devel"
+depends="nasm gdb gcc"
+short_desc="Simple crossplatform IDE for NASM, MASM, GAS, FASM assembly languages"
+maintainer="Chatranga Ranasingha <rascranasingha@gmail.com>"
+license="GPL-3"
+homepage="http://dman95.github.io/SASM/english.html"
+distfiles="https://github.com/Dman95/SASM/archive/v${version}.tar.gz"
+checksum=c61ac0de8959e2d5e2d6fa20718f97bfbc0ed79c0c7d80f14b4dedcab93dd0d7
